@@ -7,6 +7,8 @@ import { FaNodeJs } from "react-icons/fa";
 import { DiFirebase } from "react-icons/di";
 import { DiMysql } from "react-icons/di";
 import { DiAws } from "react-icons/di";
+import { SiNetlify } from "react-icons/si";
+import { SiJavascript } from "react-icons/si";
 export const Technologies = () => {
   return (
     <div className="border-b border-neutral-800 pb-24">
@@ -25,17 +27,16 @@ export const Technologies = () => {
           <FaNodeJs className="text-7xl text-cyan-400" />
         </div>
         <div className="rounded-2xl border-4 border-neutral-800 p-4">
-          <DiRedis className="text-7xl text-red-500" />
-        </div>
-        <div className="rounded-2xl border-4 border-neutral-800 p-4">
           <DiFirebase className="text-7xl" style={{ color: "#EB5B00" }} />
         </div>
         <div className="rounded-2xl border-4 border-neutral-800 p-4">
-          <DiMysql className="text-7xl" style={{ color: "#36578E" }} />
+          <SiJavascript className="text-7xl" style={{ color: "#F7DF1E" }} />
         </div>
-
         <div className="rounded-2xl border-4 border-neutral-800 p-4">
-          <DiAws className="text-7xl" style={{ color: "#03346E" }} />
+          <SiNetlify className="text-7xl" style={{ color: "#B0E0E6" }} />
+        </div>
+        <div className="rounded-2xl border-4 border-neutral-800 p-4">
+          <DiMysql className="text-7xl" style={{ color: "#36578E" }} />
         </div>
       </div>
     </div>

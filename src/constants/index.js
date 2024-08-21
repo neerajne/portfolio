@@ -2,10 +2,13 @@ import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
+import project5 from "../assets/projects/project-5.jpg";
+import project6 from "../assets/projects/project6.jpg";
+import project7 from "../assets/projects/project7.jpg";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. I have honed my skills in front-end technologies like React and material UI, as well as back-end technologies like Node.js, MySQL ,express and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I am a dedicated full stack developer with a passion for creating efficient and user-friendly web applications. I have worked with a variety of technologies, including React, Node.js, MySQL, netlify(basic),render(basic) and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
 
 export const EXPERIENCES = [
   {
@@ -76,10 +79,19 @@ export const PROJECTS = [
     githubLink: "https://github.com/neerajne/ChatApp",
     deployed: "https://connectflock.netlify.app/",
   },
+  {
+    title: "Trade-wind",
+    image: project6,
+    description:
+      "Implemented functionality to display stock prices, indices, and trading volumes using a financial data API. Enabled users to place buy and sell orders with updates retrieved from a backend database. Integrated React Chart.js to provide graphical representations of stock data and portfolio performance.Created a responsive and intuitive user interface using React, ensuring usability across both desktop and mobile devices Built server-side functionality using Node.js and Express, with data stored and managed in MongoDB.",
+    technologies: ["React", "Node.js", "MongoDB", "Expressjs"],
+    githubLink: "https://github.com/neerajne/Tradewind",
+  },
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+91 7252976743 ",
-  email: "Kartikrao@gmail.com",
+  address: "clement town,Dehradun",
+  phoneNo: "+91 7252976754 ",
+  email: "nnegi637673@gmail.com / nneeraj9876@gmail.com",
+
 };
